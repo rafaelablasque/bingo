@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('assets/fundoNatal.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-top: 130px;
+    text-align: center;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 60px;
+    color: #a31414;
+}
+
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Cormorant Upright", serif;
+    font-size: 45px;
+    color: #fffcf1;  
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 45px;
+}
+
+.conteudo-sorteador{
+    background-color: #a31414;
+    padding: 40px;
+    border: #fffcf1 dotted 4px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px #000000a3;
+    text-align: center;
+}
+
+.conteudo__numero_sorteado{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-color: #fffcf1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-exibicao{
+    background-color: #a31414;
+    padding: 40px;
+    border: #fffcf1 dotted 4px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px #000000a3;
+    text-align: center;
+}
+
+.texto__numero_sorteado{
+    font-size: 32px;
+    line-height: 1;
+    color: #a31414;
+}
+
+.lista_sorteados{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    max-width: 320px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+}
+
+.numero_sorteado_item{
+    width: 45px;
+    height: 45px;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    background-color: #fffcf1;
+    border-radius: 50%;
+    color: #a31414;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px #fffcf1;
+    border: 2px solid #fffcf1;
+
+}
+
+.botao{
+    background-color: #fffcf1;
+    color: #a31414;
+    font-family: "Cormorant Upright", serif;
+    padding: 15px;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    font-size: 25px;
+    width: 250px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
